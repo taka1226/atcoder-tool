@@ -1,0 +1,8 @@
+services:
+  web:
+    image: httpd:latest
+    restart: always
+    volumes:
+      - .:/webapp
+    ports:
+      - "8080:80"
