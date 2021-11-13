@@ -1,0 +1,1 @@
+python3 installer の後に、requests, bs4, dotenv パッケージを入れる必要がある、
